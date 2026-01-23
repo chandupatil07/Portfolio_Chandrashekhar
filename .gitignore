@@ -1,0 +1,19 @@
+# Ignore all video files
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.webm
+
+# Ignore video folders
+videos/
+assets/videos/
+assets/teaching/
+assets/projects/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
