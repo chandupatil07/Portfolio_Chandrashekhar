@@ -1,24 +1,55 @@
-const text = ["Data Engineer(Trainee)", "SQL & Power BI Developer", "Analytics Enthusiast"];
-let index = 0, char = 0;
-const el = document.getElementById("typing");
+/* ==========================================
+   TYPING ROTATOR LOGIC
+   Author: Chandrashekhar Patil (Redesigned)
+   ========================================== */
 
-function type() {
-  if (char < text[index].length) {
-    el.innerHTML += text[index][char++];
-    setTimeout(type, 80);
+const titles = [
+  "AI Engineer",
+  "Machine Learning Engineer",
+  "Software Engineer",
+  "Data Scientist",
+  "Data Engineer"
+];
+
+let titleIndex = 0;
+let charIndex = 0;
+let isDeleting = false;
+const typingElement = document.getElementById("typing");
+
+function typeEffect() {
+  const currentTitle = titles[titleIndex];
+  
+  if (isDeleting) {
+    // Remove characters
+    typingElement.textContent = currentTitle.substring(0, charIndex - 1);
+    charIndex--;
   } else {
-    setTimeout(erase, 1500);
+    // Add characters
+    typingElement.textContent = currentTitle.substring(0, charIndex + 1);
+    charIndex++;
   }
+  
+  // Speed control
+  let typingSpeed = isDeleting ? 40 : 80;
+  
+  // Check for completion
+  if (!isDeleting && charIndex === currentTitle.length) {
+    // Pause at full text
+    typingSpeed = 2000;
+    isDeleting = true;
+  } else if (isDeleting && charIndex === 0) {
+    isDeleting = false;
+    // Move to next title
+    titleIndex = (titleIndex + 1) % titles.length;
+    typingSpeed = 500;
+  }
+  
+  setTimeout(typeEffect, typingSpeed);
 }
 
-function erase() {
-  if (char > 0) {
-    el.innerHTML = text[index].substring(0, --char);
-    setTimeout(erase, 40);
-  } else {
-    index = (index + 1) % text.length;
-    setTimeout(type, 400);
+// Start typing animation on load
+document.addEventListener("DOMContentLoaded", () => {
+  if (typingElement) {
+    typeEffect();
   }
-}
-
-type();
+});

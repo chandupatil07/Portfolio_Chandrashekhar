@@ -3,529 +3,908 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Chandrashekhar Patil | Data & Analytics Portfolio</title>
-
-  <link rel="stylesheet" href="assets/css/style.css">
-  <link rel="stylesheet" href="assets/css/animations.css">
-<link rel="stylesheet" href="assets/css/style.css">
-<link rel="stylesheet" href="assets/css/animations.css">
-
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+  <title>Chandrashekhar Patil | Portfolio - AI, ML & Software Engineer</title>
+  
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Chandrashekhar Patil - Portfolio. AI Engineer, Machine Learning Engineer, Software Engineer, and Data Scientist. Final Year student at SGGS Nanded. Open for full-time opportunities and internships. Explore CareerCopilot AI and other flagship projects." />
+  <meta name="keywords" content="Chandrashekhar Patil, AI Engineer, Machine Learning, Data Scientist, Data Engineer, Software Engineer, Portfolio, CareerCopilot AI, SGGS Nanded" />
+  <meta name="author" content="Chandrashekhar Patil" />
+  
+  <!-- Open Graph / LinkedIn -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Chandrashekhar Patil | AI, ML & Software Engineer Portfolio" />
+  <meta property="og:description" content="Explore advanced projects in Generative AI, Machine Learning, Data Pipelines, and Full Stack Software Engineering built by Chandrashekhar Patil." />
+  <meta property="og:image" content="assets/images/profile/profile.jpeg" />
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="assets/css/style.css?v=1.3">
+  <link rel="stylesheet" href="assets/css/animations.css?v=1.1">
+  
+  <!-- Icons Libraries -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
 </head>
 
 <body>
 
-<header>
-  <nav class="navbar">
-    <h2 class="logo">Chandrashekhar Patil</h2>
-    <ul>
-      <li><a href="#about">About</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#videos">Videos</a></li>
-      <li><a href="#photos">Photos</a></li>
+  <!-- Navigation Bar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo-container">
+        <h2 class="logo">Chandrashekhar Patil</h2>
+        <span class="logo-sub">AI & Software Engineer</span>
+      </div>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#coding-profiles">DSA Profiles</a></li>
+        <li><a href="#videos">Videos & Events</a></li>
+        <li><a href="#certificates">Certificates</a></li>
+        <li><a href="#contact" class="nav-btn">Contact Me</a></li>
+      </ul>
+    </nav>
+  </header>
 
-      <li><a href="#certificates">Certificates</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
-</header>
+  <main>
+    
+    <!-- HERO SECTION -->
+    <section class="hero section">
+      <div class="hero-grid">
+        <div class="hero-content reveal">
+          <span class="hero-pretitle">Hello, I'm</span>
+          <h1>Chandrashekhar <span>Patil</span></h1>
+          
+          <div class="hero-rotating-container">
+            <div class="hero-rotating-text">
+              <span id="typing"></span>
+            </div>
+          </div>
+          
+          <p class="hero-description">
+            Final Year B.Tech Engineering Student at <strong>SGGS, Nanded</strong>. Specializing in engineering <strong>Large Language Models (LLMs)</strong>, <strong>Agentic Workflows (LangGraph/LangChain)</strong>, <strong>RAG Architectures</strong>, and <strong>Scalable Software Systems</strong>. Heavily grounded in Data Structures & Algorithms (450+ LeetCode, 100+ GFG), backend frameworks (FastAPI/Node.js), and database scaling. Passionate about translating complex computational challenges into high-performance production pipelines. <strong>Available immediately for full-time Software, AI/ML, and Data Engineering roles.</strong>
+          </p>
+          
+          <div class="hero-socials">
+            <a href="https://www.linkedin.com/in/chandupatil07/" target="_blank" class="hero-social-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/chandupatil07" target="_blank" class="hero-social-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://leetcode.com/u/Chandrashekhar_Patil/" target="_blank" class="hero-social-link" aria-label="LeetCode"><i class="fas fa-code"></i></a>
+          </div>
+          
+          <div class="hero-actions">
+            <a href="assets/docs/resume/resume.pdf" target="_blank" class="btn-primary">Download Resume <i class="fas fa-download"></i></a>
+            <a href="#projects" class="btn-secondary">View Projects <i class="fas fa-arrow-right"></i></a>
+          </div>
+        </div>
+        
+        <div class="hero-image-container reveal reveal-delay-2">
+          <div class="hero-image-ring-1"></div>
+          <div class="hero-image-ring-2"></div>
+          <div class="hero-image-wrapper">
+            <img src="assets/images/profile/profile.jpeg" alt="Chandrashekhar Patil Photo">
+          </div>
+        </div>
+      </div>
+    </section>
 
-<!-- HERO --> 
-<section class="hero">
-  <div class="hero-content">
-    <h1>Hi, I'm <span>Chandrashekhar Patil</span></h1>
-    <h3 id="typing"></h3>
+    <!-- ABOUT ME -->
+    <section id="about" class="section reveal">
+      <div class="section-header">
+        <span class="section-subtitle">Biography</span>
+        <h2 class="section-title">About Me</h2>
+      </div>
+      
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I am a final-year B.Tech Engineering student at <strong>Shri Guru Gobind Singhji Institute of Engineering & Technology (SGGS), Nanded</strong>. My technical core is built at the intersection of <strong>Scalable Software Engineering</strong>, <strong>AI-Driven Workflows</strong>, and <strong>Data Pipeline Architecture</strong>.
+          </p>
+          <p>
+            I focus on designing systems where logical algorithms meet neural intelligence. Whether it is engineering contextual search engines using <strong>RAG (Retrieval-Augmented Generation)</strong>, orchestrating multi-agent state machines in <strong>LangGraph</strong>, optimizing relational databases, or building production-ready RESTful APIs, I thrive on writing clean, modular, and complexity-efficient code.
+          </p>
+          <p>
+            My experience as a <strong>Workshop & Internship Executive</strong> in the Training & Placement Cell and <strong>Mathematics Teacher</strong> at Sankalp Classes has sharpened my capability to translate complex technical problems into structured steps, manage cross-functional workloads, and communicate logic clearly to technical and non-technical stakeholders.
+          </p>
+          
+          <div class="about-features">
+            <div class="glass-card about-feature-card">
+              <i class="fas fa-brain"></i>
+              <h4>DSA Champion</h4>
+              <p>550+ combined LeetCode and GFG challenges solved with optimized space-time complexities.</p>
+            </div>
+            <div class="glass-card about-feature-card">
+              <i class="fas fa-cogs"></i>
+              <h4>Systems Architect</h4>
+              <p>Engineered full-stack LLM products, RAG indexers, and modular ETL pipelines.</p>
+            </div>
+          </div>
+        </div>
+        
+        <div class="about-sidebar">
+          <div class="glass-card how-i-think-card">
+            <h3><i class="fas fa-lightbulb"></i> Engineering Philosophy</h3>
+            <p>
+              I believe in writing code optimized for time-space complexity and horizontal scalability. My workflow centers on breaking computational tasks into core mathematical models, isolating API dependencies, optimizing database indexing paths, and utilizing structured design patterns. This ensures code is highly maintainable, resource-efficient, and enterprise-grade.
+            </p>
+          </div>
+          <div class="glass-card how-i-think-card">
+            <h3><i class="fas fa-bullseye"></i> Career Goal</h3>
+            <p>
+              Aiming to secure challenging Internships & SDE Placements at top-tier product organizations to build production-ready intelligent software, optimize model deployments, and lead scalable data-driven projects.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    <p class="headline">
-      Open for Internships & Placements: 
-      Software Development Engineer (SDE Intern) | Software Engineer Intern | 
-      Full Stack Developer (MERN) Intern | Backend Developer (Node.js) Intern |
-      Data Analyst | SQL Developer | Power BI Developer | Data Engineer (Trainee)
-    </p>
+    <!-- PROJECTS SECTION -->
+    <section id="projects" class="section reveal">
+      <div class="section-header">
+        <span class="section-subtitle">Technical Showcase</span>
+        <h2 class="section-title">Projects</h2>
+      </div>
+      
+      <!-- Flagship Project (Hero Layout Card) -->
+      <div class="featured-project-container">
+        <div class="glass-card featured-project-card">
+          <div class="featured-content">
+            <span class="featured-tag">Featured Project</span>
+            <h3>CareerCopilot AI</h3>
+            <p class="featured-desc">
+              An end-to-end AI-powered SaaS career acceleration assistant platform designed to optimize resumes, track job applications, generate highly aligned cold outreach resources, and conduct interactive interview preparations for candidates.
+            </p>
+            
+            <div class="featured-details-grid">
+              <div class="featured-detail-item">
+                <h4>Problem</h4>
+                <p>Candidates face friction tracking workflows, understanding ATS scoring filters, generating custom applications, and prepping for interviews.</p>
+              </div>
+              <div class="featured-detail-item">
+                <h4>Solution</h4>
+                <p>Constructed an intelligent analytical engine tracking applications, running NLP-based keyword extraction, and supplying interactive GenAI prep tools.</p>
+              </div>
+            </div>
+            
+            <div class="featured-tech-wrap">
+              <h4>Tech Stack & Architecture</h4>
+              <div class="featured-tech-tags">
+                <span class="featured-tech-tag">FastAPI</span>
+                <span class="featured-tech-tag">React.js</span>
+                <span class="featured-tech-tag">PostgreSQL</span>
+                <span class="featured-tech-tag">Docker</span>
+                <span class="featured-tech-tag">JWT Auth</span>
+                <span class="featured-tech-tag">pdfplumber</span>
+                <span class="featured-tech-tag">Python NLP</span>
+                <span class="featured-tech-tag">Generative AI</span>
+                <span class="featured-tech-tag">LangChain</span>
+              </div>
+            </div>
+            
+            <div class="featured-actions">
+              <a href="https://github.com/chandupatil07/CareerCopilot-AI" target="_blank" class="btn-primary">View GitHub <i class="fab fa-github"></i></a>
+              <a href="https://career-copilot-ai-t5xa.vercel.app/" target="_blank" class="btn-secondary">Live Demo <i class="fas fa-external-link-alt"></i></a>
+            </div>
+          </div>
+          
+          <div class="featured-visual">
+            <div class="featured-img-wrapper">
+              <img src="assets/images/projects/careercopilot.jpg" alt="CareerCopilot AI Dashboard">
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Interactive Role-Based Project Filter -->
+      <div class="project-filter-container reveal">
+        <span class="filter-label">Filter Projects by Role Match:</span>
+        <div class="filter-buttons">
+          <button class="filter-btn active" data-filter="all">All Projects</button>
+          <button class="filter-btn" data-filter="ai">AI Engineering</button>
+          <button class="filter-btn" data-filter="ml">Machine Learning</button>
+          <button class="filter-btn" data-filter="se">Software Development</button>
+          <button class="filter-btn" data-filter="ds">Data Science & Analytics</button>
+          <button class="filter-btn" data-filter="de">Data Engineering</button>
+        </div>
+      </div>
+      
+      <!-- Other Projects Grid -->
+      <div class="projects-grid">
+        
+        <!-- AgroVision -->
+        <div class="glass-card project-card" data-roles="ai se">
+          <div class="project-img-wrapper">
+            <img src="assets/images/projects/agrovision.png" alt="AgroVision Showcase">
+          </div>
+          <div class="project-tech">
+            <span class="project-tech-badge">React.js</span>
+            <span class="project-tech-badge">Node.js</span>
+            <span class="project-tech-badge">Express</span>
+            <span class="project-tech-badge">MongoDB</span>
+          </div>
+          <h3>AgroVision – Smart Agriculture</h3>
+          <p class="project-summary">
+            A MERN-based smart farming portal coordinating farmer accounts, custom soil logging profiles, and crop management strategies to support sustainable agricultural growth.
+          </p>
+          <div class="project-links">
+            <a href="https://github.com/chandupatil07/AgroVision.git" target="_blank" class="project-link-btn"><i class="fab fa-github"></i> Code</a>
+            <a href="https://agrovision-self.vercel.app/" target="_blank" class="project-link-btn"><i class="fas fa-external-link-alt"></i> Live</a>
+          </div>
+        </div>
 
-    <p class="headline">
-      Strong foundation in Data Structures & Algorithms, MERN Stack, SQL, and Backend Development with a focus on scalable and efficient solutions.
-    </p>
+        <!-- Plant Disease Detection -->
+        <div class="glass-card project-card" data-roles="ai ml">
+          <div class="project-img-wrapper">
+            <img src="assets/images/projects/plant_disease.jpg" alt="Plant Disease Detection System Showcase">
+          </div>
+          <div class="project-tech">
+            <span class="project-tech-badge">Python</span>
+            <span class="project-tech-badge">PyTorch</span>
+            <span class="project-tech-badge">OpenCV</span>
+            <span class="project-tech-badge">Flask</span>
+            <span class="project-tech-badge">CNN</span>
+          </div>
+          <h3>Plant Disease Detection</h3>
+          <p class="project-summary">
+            A deep learning-based image classification application that utilizes Convolutional Neural Networks (CNNs) to detect leaf blights and crop disease symptoms from uploaded plant photos, delivering instant predictions and mitigation recommendations.
+          </p>
+          <div class="project-links">
+            <a href="https://github.com/chandupatil07/AgroVision.git" target="_blank" class="project-link-btn"><i class="fab fa-github"></i> Code</a>
+            <a href="https://agrovision-self.vercel.app/" target="_blank" class="project-link-btn"><i class="fas fa-external-link-alt"></i> Live</a>
+          </div>
+        </div>
+        
+        <!-- Prescripto -->
+        <div class="glass-card project-card" data-roles="se">
+          <div class="project-img-wrapper">
+            <img src="assets/images/projects/prescripto.png" alt="Prescripto System Showcase">
+          </div>
+          <div class="project-tech">
+            <span class="project-tech-badge">React.js</span>
+            <span class="project-tech-badge">Node.js</span>
+            <span class="project-tech-badge">Express</span>
+            <span class="project-tech-badge">MongoDB</span>
+          </div>
+          <h3>Prescripto – Hospital Management</h3>
+          <p class="project-summary">
+            Full-stack hospital appointment coordinator system providing patients booking queues, doctor profiles management, secure authentication (JWT), and a consolidated dashboard for clinical administration.
+          </p>
+          <div class="project-links">
+            <a href="https://github.com/chandupatil07/Hospital_Appointements.git" target="_blank" class="project-link-btn"><i class="fab fa-github"></i> Code</a>
+            <a href="https://hospitaladmin-weld.vercel.app/" target="_blank" class="project-link-btn"><i class="fas fa-external-link-alt"></i> Live</a>
+          </div>
+        </div>
+        
+        <!-- Movie Recommendation System -->
+        <div class="glass-card project-card" data-roles="ml ds">
+          <div class="project-img-wrapper">
+            <img src="assets/images/projects/movie.png" alt="Movie Recommender Showcase">
+          </div>
+          <div class="project-tech">
+            <span class="project-tech-badge">Python</span>
+            <span class="project-tech-badge">Pandas</span>
+            <span class="project-tech-badge">Scikit-Learn</span>
+            <span class="project-tech-badge">Streamlit</span>
+          </div>
+          <h3>Movie Recommender System</h3>
+          <p class="project-summary">
+            Content-based movie recommendation system that extracts feature embeddings and vector similarity calculations using Scikit-Learn to suggest highly correlated films via a Streamlit user interface.
+          </p>
+          <div class="project-links">
+            <a href="https://github.com/chandupatil07/Movies_Recommandation_System" target="_blank" class="project-link-btn"><i class="fab fa-github"></i> Code</a>
+            <a href="https://hostwebs.site/eyP4Pw" target="_blank" class="project-link-btn"><i class="fas fa-external-link-alt"></i> Live</a>
+          </div>
+        </div>
+        
+        <!-- SQL Data Warehouse -->
+        <div class="glass-card project-card" data-roles="de ds">
+          <div class="project-img-wrapper">
+            <img src="assets/images/projects/sql_data_warehouse.png" alt="SQL Data Warehouse Staging">
+          </div>
+          <div class="project-tech">
+            <span class="project-tech-badge">SQL Server</span>
+            <span class="project-tech-badge">Medallion Architecture</span>
+            <span class="project-tech-badge">ETL</span>
+          </div>
+          <h3>SQL Server Data Warehouse</h3>
+          <p class="project-summary">
+            Implemented a modern analytical data warehouse using SQL Server, setting up Bronze, Silver, and Gold structures to transition raw database tables into structured, analytical schemas optimized for KPI reporting.
+          </p>
+          <div class="project-links">
+            <a href="https://github.com/chandupatil07/sql-data-warehouse-project" target="_blank" class="project-link-btn"><i class="fab fa-github"></i> Code</a>
+            <a href="https://drive.google.com/file/d/1vLKEsZOX6DkiJgMx4Za8bW__p4cJIiR2/preview" target="_blank" class="project-link-btn"><i class="fas fa-play"></i> Demo Video</a>
+          </div>
+        </div>
+        
+        <!-- Power BI Dashboard -->
+        <div class="glass-card project-card" data-roles="ds de">
+          <div class="project-img-wrapper">
+            <img src="assets/images/projects/powerbi.png" alt="Power BI Dashboard Screenshot">
+          </div>
+          <div class="project-tech">
+            <span class="project-tech-badge">Power BI</span>
+            <span class="project-tech-badge">DAX Analytics</span>
+            <span class="project-tech-badge">KPI Design</span>
+          </div>
+          <h3>Power BI Mobile Sales Dashboard</h3>
+          <p class="project-summary">
+            Interactive, mobile-responsive corporate sales monitoring dashboard featuring dynamic DAX queries, KPI indicators, historical charts, and segmented filters to outline profit optimization.
+          </p>
+          <div class="project-links">
+            <a href="https://github.com/chandupatil07/powerbi-mobile-sales-dashboard" target="_blank" class="project-link-btn"><i class="fab fa-github"></i> Code</a>
+            <a href="https://drive.google.com/file/d/1S7fSG21Qy0t-IDtTa6YlGpC45r62WlSU/preview" target="_blank" class="project-link-btn"><i class="fas fa-play"></i> Demo Video</a>
+          </div>
+        </div>
+        
+        <!-- SQL EDA -->
+        <div class="glass-card project-card" data-roles="de ds">
+          <div class="project-img-wrapper">
+            <img src="assets/images/projects/sql_analysis.png" alt="SQL EDA Showcase">
+          </div>
+          <div class="project-tech">
+            <span class="project-tech-badge">SQL Server</span>
+            <span class="project-tech-badge">Window Functions</span>
+            <span class="project-tech-badge">Data Analysis</span>
+          </div>
+          <h3>Exploratory Data Analysis (SQL)</h3>
+          <p class="project-summary">
+            Advanced SQL operations compiling analytical trends using window functions, complex joins, subqueries, and table expressions (CTEs) to clean and profile tabular records.
+          </p>
+          <div class="project-links">
+            <a href="https://github.com/chandupatil07/sql-exploratory-data-analysis" target="_blank" class="project-link-btn"><i class="fab fa-github"></i> Code</a>
+          </div>
+        </div>
+        
+      </div>
+    </section>
 
-    <p class="headline">
-      Built real-world projects including <b>Prescripto – Hospital Appointment Management System</b>, SQL Data Warehouse, Power BI Dashboards, and ML-based Recommendation Systems.
-    </p>
+    <!-- SKILLS SECTION -->
+    <section id="skills" class="section reveal">
+      <div class="section-header">
+        <span class="section-subtitle">Core Capabilities</span>
+        <h2 class="section-title">Skills & Expertise</h2>
+      </div>
+         <div class="skills-domain-grid">
+        
+        <!-- Role: AI Engineer -->
+        <div class="glass-card skills-domain-card">
+          <img src="assets/images/skills/ai_engineer.jpg" alt="AI Engineer Illustration" class="skills-card-image">
+          <div class="skills-card-content">
+            <h3><i class="fas fa-brain"></i> AI Engineering & GenAI</h3>
+            <div class="skills-tags">
+              <span class="skills-tag python"><i class="devicon-python-plain colored"></i> Python</span>
+              <span class="skills-tag"><i class="fas fa-link"></i> LangChain</span>
+              <span class="skills-tag"><i class="fas fa-project-diagram"></i> LangGraph</span>
+              <span class="skills-tag"><i class="fas fa-search-plus"></i> RAG Pipelines</span>
+              <span class="skills-tag"><i class="fas fa-keyboard"></i> Prompt Engineering</span>
+              <span class="skills-tag"><i class="fas fa-robot"></i> LLMs (GPT, LLaMA)</span>
+              <span class="skills-tag"><i class="fas fa-smile"></i> Hugging Face</span>
+              <span class="skills-tag"><i class="fas fa-atom"></i> OpenAI APIs</span>
+              <span class="skills-tag"><i class="fas fa-archive"></i> Vector DBs (Chroma)</span>
+              <span class="skills-tag"><i class="fas fa-search"></i> Semantic Search</span>
+              <span class="skills-tag"><i class="fas fa-user-cog"></i> Agentic Workflows</span>
+              <span class="skills-tag"><i class="fas fa-language"></i> NLP</span>
+              <span class="skills-tag"><i class="fas fa-eye"></i> OpenCV</span>
+              <span class="skills-tag"><i class="fas fa-sliders-h"></i> Feature Engineering</span>
+              <span class="skills-tag"><i class="fas fa-chart-line"></i> Model Evaluation</span>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Role: Machine Learning Engineer -->
+        <div class="glass-card skills-domain-card">
+          <img src="assets/images/skills/ml_engineer.jpg" alt="Machine Learning Engineer Illustration" class="skills-card-image">
+          <div class="skills-card-content">
+            <h3><i class="fas fa-cogs"></i> Machine Learning & Deep Learning</h3>
+            <div class="skills-tags">
+              <span class="skills-tag pytorch"><i class="devicon-pytorch-original colored"></i> PyTorch</span>
+              <span class="skills-tag tensorflow"><i class="devicon-tensorflow-original colored"></i> TensorFlow</span>
+              <span class="skills-tag scikit"><i class="devicon-scikitlearn-plain colored"></i> Scikit-Learn</span>
+              <span class="skills-tag"><i class="fas fa-border-all"></i> CNNs (Vision)</span>
+              <span class="skills-tag"><i class="fas fa-sync-alt"></i> RNNs / LSTMs</span>
+              <span class="skills-tag"><i class="fas fa-bolt"></i> Transformers</span>
+              <span class="skills-tag"><i class="fas fa-exchange-alt"></i> Transfer Learning</span>
+              <span class="skills-tag"><i class="fas fa-sliders-h"></i> Fine Tuning</span>
+              <span class="skills-tag"><i class="fas fa-camera"></i> Computer Vision</span>
+              <span class="skills-tag"><i class="fas fa-chart-line"></i> Regression & Classification</span>
+              <span class="skills-tag"><i class="fas fa-braille"></i> Clustering (K-Means)</span>
+              <span class="skills-tag"><i class="fas fa-tree"></i> Decision Trees & Forests</span>
+              <span class="skills-tag"><i class="fas fa-rocket"></i> XGBoost & SVM</span>
+              <span class="skills-tag"><i class="fas fa-users-cog"></i> KNN & PCA</span>
+              <span class="skills-tag"><i class="fas fa-cloud-upload-alt"></i> Model Deployment</span>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Role: Software Engineer -->
+        <div class="glass-card skills-domain-card">
+          <img src="assets/images/skills/software_engineer.jpg" alt="Software Engineer Illustration" class="skills-card-image">
+          <div class="skills-card-content">
+            <h3><i class="fas fa-laptop-code"></i> Full-Stack Software Engineering</h3>
+            <div class="skills-tags">
+              <span class="skills-tag react"><i class="devicon-react-original colored"></i> React.js</span>
+              <span class="skills-tag js"><i class="devicon-javascript-plain colored"></i> JavaScript (ES6+)</span>
+              <span class="skills-tag node"><i class="devicon-nodejs-plain colored"></i> Node.js</span>
+              <span class="skills-tag express"><i class="devicon-express-original"></i> Express.js</span>
+              <span class="skills-tag fastapi"><i class="devicon-fastapi-plain colored"></i> FastAPI</span>
+              <span class="skills-tag html"><i class="devicon-html5-plain colored"></i> HTML5</span>
+              <span class="skills-tag css"><i class="devicon-css3-plain colored"></i> CSS3</span>
+              <span class="skills-tag"><i class="fas fa-cloud"></i> REST APIs</span>
+              <span class="skills-tag"><i class="fas fa-key"></i> JWT Authentication</span>
+              <span class="skills-tag"><i class="fas fa-lock"></i> Bcrypt Hashing</span>
+              <span class="skills-tag docker"><i class="devicon-docker-plain colored"></i> Docker</span>
+              <span class="skills-tag git"><i class="devicon-git-plain colored"></i> Git</span>
+              <span class="skills-tag github"><i class="devicon-github-original"></i> GitHub</span>
+              <span class="skills-tag"><i class="fas fa-mobile-alt"></i> Responsive Design</span>
+              <span class="skills-tag"><i class="fas fa-th-large"></i> CSS Grid/Flexbox</span>
+              <span class="skills-tag"><i class="fab fa-github"></i> GitHub Actions</span>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Role: Data Scientist -->
+        <div class="glass-card skills-domain-card">
+          <img src="assets/images/skills/data_scientist.jpg" alt="Data Scientist Illustration" class="skills-card-image">
+          <div class="skills-card-content">
+            <h3><i class="fas fa-chart-bar"></i> Data Science & Analytics</h3>
+            <div class="skills-tags">
+              <span class="skills-tag python"><i class="devicon-python-plain colored"></i> Python</span>
+              <span class="skills-tag cpp"><i class="devicon-cplusplus-plain colored"></i> C++</span>
+              <span class="skills-tag js"><i class="devicon-javascript-plain colored"></i> JavaScript</span>
+              <span class="skills-tag"><i class="devicon-c-plain colored"></i> C</span>
+              <span class="skills-tag pandas"><i class="devicon-pandas-plain colored"></i> Pandas</span>
+              <span class="skills-tag numpy"><i class="devicon-numpy-original colored"></i> NumPy</span>
+              <span class="skills-tag matplotlib"><i class="devicon-matplotlib-plain colored"></i> Matplotlib</span>
+              <span class="skills-tag"><i class="fas fa-filter"></i> Data Wrangling</span>
+              <span class="skills-tag"><i class="fas fa-chart-bar"></i> EDA</span>
+              <span class="skills-tag"><i class="fas fa-check-square"></i> Feature Selection</span>
+              <span class="skills-tag"><i class="fas fa-calculator"></i> Statistics & Probability</span>
+              <span class="skills-tag powerbi"><i class="fas fa-chart-bar"></i> Power BI</span>
+              <span class="skills-tag excel"><i class="fas fa-table"></i> MS Excel</span>
+              <span class="skills-tag"><i class="fas fa-toolbox"></i> SSMS</span>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Role: Data Engineer -->
+        <div class="glass-card skills-domain-card">
+          <img src="assets/images/skills/data_engineer.jpg" alt="Data Engineer Illustration" class="skills-card-image">
+          <div class="skills-card-content">
+            <h3><i class="fas fa-server"></i> Data Engineering & Databases</h3>
+            <div class="skills-tags">
+              <span class="skills-tag"><i class="fas fa-database"></i> SQL (Structured Query)</span>
+              <span class="skills-tag postgresql"><i class="devicon-postgresql-plain colored"></i> PostgreSQL</span>
+              <span class="skills-tag mongodb"><i class="devicon-mongodb-plain colored"></i> MongoDB</span>
+              <span class="skills-tag"><i class="devicon-sqlite-plain colored"></i> SQLite</span>
+              <span class="skills-tag"><i class="fas fa-warehouse"></i> Data Warehousing</span>
+              <span class="skills-tag"><i class="fas fa-random"></i> ETL Pipelines</span>
+              <span class="skills-tag"><i class="fas fa-layer-group"></i> Medallion Architecture</span>
+              <span class="skills-tag"><i class="fas fa-table"></i> Schema Design</span>
+              <span class="skills-tag"><i class="fas fa-tachometer-alt"></i> Query Optimization</span>
+              <span class="skills-tag"><i class="fas fa-stream"></i> Data Pipelines</span>
+              <span class="skills-tag"><i class="fas fa-globe"></i> Vercel</span>
+              <span class="skills-tag"><i class="fas fa-cloud"></i> Render</span>
+              <span class="skills-tag"><i class="fas fa-desktop"></i> Streamlit Sharing</span>
+              <span class="skills-tag docker"><i class="devicon-docker-plain colored"></i> Docker</span>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+        
+      </div>
+    </section>
 
-    <p class="headline">
-      Solved <b>250+ DSA problems</b> on <b>LeetCode & GeeksforGeeks</b> demonstrating consistency in problem solving and logical thinking.
-    </p>
+    <!-- EXPERIENCE SECTION -->
+    <section id="experience" class="section reveal">
+      <div class="section-header">
+        <span class="section-subtitle">Career Path</span>
+        <h2 class="section-title">Experience & Leadership</h2>
+      </div>
+      
+      <div class="timeline">
+        
+        <!-- Mathematics Teacher -->
+        <div class="timeline-item">
+          <div class="timeline-node">
+            <img src="assets/images/logos/sankalp_logo.png" alt="Sankalp Coaching Classes Logo">
+          </div>
+          <div class="timeline-header">
+            <div>
+              <h3>Mathematics Teacher (5th to 10th Standard)</h3>
+              <h4>Sankalp Coaching Classes, Nanded</h4>
+            </div>
+            <span class="timeline-date">2023 - 2026</span>
+          </div>
+          <div class="timeline-desc">
+            <p>Delivered comprehensive mathematics lectures, building quantitative foundations and logical reasoning in secondary-level students.</p>
+            <ul>
+              <li>Instructed algebra, coordinate geometry, and numerical reasoning classes.</li>
+              <li>Mentored 150+ students in breaking down word problems into logical, sequential algorithmic steps.</li>
+              <li>Conducted periodic analytical assessments, improving classroom scores and average margins by 25%.</li>
+            </ul>
+          </div>
+        </div>
 
-    <div class="hero-buttons">
-      <a href="assets/docs/resume/resume.pdf" target="_blank">View Resume</a>
-      <a href="#projects">View Projects</a>
-    </div>
-  </div>
+        <!-- Training & Placement Cell -->
+        <div class="timeline-item">
+          <div class="timeline-node">
+            <img src="assets/images/logos/sggs_tnp_logo.png" alt="SGGS T&P Cell Logo">
+          </div>
+          <div class="timeline-header">
+            <div>
+              <h3>Workshop & Internship Executive</h3>
+              <h4>Training & Placement Cell, SGGS Nanded</h4>
+            </div>
+            <span class="timeline-date">2025 - 2026</span>
+          </div>
+          <div class="timeline-desc">
+            <p>Elected executive responsible for managing technical workshops, preparing placement resources, and tracking training analytics.</p>
+            <ul>
+              <li>Formulated execution plans for professional programming bootcamps and algorithmic prep bootcamps.</li>
+              <li>Guided peers in structuring technical resumes, mapping candidate competencies to company descriptions.</li>
+              <li>Engineered scheduling databases to track peer mock-interview performances and coordination pipelines.</li>
+            </ul>
+          </div>
+        </div>
 
-  <div class="hero-image">
-    <img src="assets/images/profile/profile.jpeg" alt="Profile Photo">
-  </div>
-</section>
+        
+      </div>
+    </section>
 
-<!-- ABOUT -->
-<section id="about" class="fade-in section">
-  <h2>About Me</h2>
+    <!-- EDUCATION SECTION -->
+    <section id="education" class="section reveal">
+      <div class="section-header">
+        <span class="section-subtitle">Academic Credentials</span>
+        <h2 class="section-title">Education</h2>
+      </div>
+      
+      <div class="timeline">
+        
+        <!-- B.Tech -->
+        <div class="timeline-item">
+          <div class="timeline-node">
+            <img src="assets/images/logos/sggs_logo.png" alt="SGGS Nanded Logo">
+          </div>
+          <div class="timeline-header">
+            <div>
+              <h3>B.Tech - Engineering Student (Final Year)</h3>
+              <h4>Shri Guru Gobind Singhji Institute of Engineering & Technology (SGGS), Nanded</h4>
+            </div>
+            <span class="timeline-date">2023 - 2027</span>
+          </div>
+          <div class="timeline-desc">
+            <p>Focusing on advanced computation coursework: Data Structures, Analysis of Algorithms, Machine Learning Systems, Database Staging, and Analytical Pipelines.</p>
+          </div>
+        </div>
+        
+        <!-- Higher Secondary HSC -->
+        <div class="timeline-item">
+          <div class="timeline-node">
+            <img src="assets/images/logos/yeshwant_logo.png" alt="Yeshwant Mahavidyalaya Logo">
+          </div>
+          <div class="timeline-header">
+            <div>
+              <h3>Higher Secondary Certificate (11th & 12th Grade)</h3>
+              <h4>Yeshwant Mahavidyalaya, Nanded</h4>
+            </div>
+            <span class="timeline-date">2021 - 2023</span>
+          </div>
+          <div class="timeline-desc">
+            <p>Specialized study in Physics, Chemistry, and Mathematics (PCM). Developed a strong mathematical foundation and quantitative analytical abilities.</p>
+          </div>
+        </div>
+        
+        <!-- Sainiki School schooling -->
+        <div class="timeline-item">
+          <div class="timeline-node">
+            <img src="assets/images/logos/sainiki_logo.png" alt="Sainiki School Logo">
+          </div>
+          <div class="timeline-header">
+            <div>
+              <h3>Secondary School Certificate (SSC)</h3>
+              <h4>Shri Chhatrapati Shahu Maharaj Sainiki Vidyalaya, Udgir</h4>
+            </div>
+            <span class="timeline-date">Completed 2021</span>
+          </div>
+          <div class="timeline-desc">
+            <p>Rigorous secondary school education centered on academic sciences, mathematical reasoning, leadership training, and disciplined routines.</p>
+          </div>
+        </div>
+        
+      </div>
+    </section>
 
-  <p>
-    I am Chandrashekhar Patil, a third-year Engineering student at Shri Guru Gobind Singhji Institute of Engineering & Technology (SGGS), Nanded, with a strong foundation in software development, data engineering, and problem solving.
-  </p>
+    <!-- CODING PROFILES -->
+    <section id="coding-profiles" class="section reveal">
+      <div class="section-header">
+        <span class="section-subtitle">Problem Solving Metrics</span>
+        <h2 class="section-title">Coding Profiles</h2>
+      </div>
+      
+      <div class="coding-grid">
+        
+        <!-- LeetCode Card -->
+        <div class="glass-card coding-card">
+          <i class="fas fa-code"></i>
+          <h3>LeetCode</h3>
+          <div class="stat">450+</div>
+          <p class="desc">DSA challenges solved covering Dynamic Programming, Graph Theory, Complex Trees, and greedy algorithms. Focused on O(N) runtime and O(1) space optimization.</p>
+          <a href="https://leetcode.com/u/Chandrashekhar_Patil/" target="_blank" class="btn-primary">View LeetCode <i class="fas fa-external-link-alt"></i></a>
+        </div>
+        
+        <!-- GeeksforGeeks Card -->
+        <div class="glass-card coding-card">
+          <i class="fas fa-terminal"></i>
+          <h3>GeeksforGeeks</h3>
+          <div class="stat">100+</div>
+          <p class="desc" style="margin-bottom: 0;">Analytical challenges and mathematical structures solved to reinforce object-oriented scaling, algorithmic paradigms, and code efficiency standards.</p>
+        </div>
+        
+        <!-- GitHub Contributions Card -->
+        <div class="glass-card coding-card">
+          <i class="fab fa-github"></i>
+          <h3>GitHub</h3>
+          <div class="stat">Active</div>
+          <p class="desc">Repository host to production-ready AI products (CareerCopilot AI), agricultural classification pipelines, automated staging data warehouses, and backend microservices.</p>
+          <a href="https://github.com/chandupatil07" target="_blank" class="btn-primary">View Repositories <i class="fas fa-external-link-alt"></i></a>
+        </div>
+        
+      </div>
+    </section>
 
-  <p>
-    I have built real-world projects including Prescripto (Hospital Appointment Management System), SQL Data Warehouse, Power BI Dashboards, and a Machine Learning Recommendation System. My technical skills include MERN stack, SQL, Python, and Data Structures & Algorithms, with 250+ problems solved on LeetCode and GeeksforGeeks.
-  </p>
+    <!-- ACHIEVEMENTS SECTION -->
+    <section id="achievements" class="section reveal">
+      <div class="section-header">
+        <span class="section-subtitle">Success Metrics</span>
+        <h2 class="section-title">Achievements</h2>
+      </div>
+      
+      <div class="achievements-grid">
+        
+        <div class="glass-card achievement-card">
+          <i class="fas fa-trophy"></i>
+          <div class="achievement-details">
+            <h3>Competitive DSA Coding</h3>
+            <p>Solved 550+ combined Data Structures & Algorithms challenges on LeetCode & GeeksforGeeks, maintaining optimized space-time complexities.</p>
+          </div>
+        </div>
+        
+        <div class="glass-card achievement-card">
+          <i class="fas fa-award"></i>
+          <div class="achievement-details">
+            <h3>Academic Scholarship Merit</h3>
+            <p>Awarded academic scholarships for exceptional scholastic performance and engineering grade indices at SGGS Nanded.</p>
+          </div>
+        </div>
+        
+        <div class="glass-card achievement-card">
+          <i class="fas fa-users"></i>
+          <div class="achievement-details">
+            <h3>Leadership & Coordination</h3>
+            <p>Elected Workshop & Internship Executive in the Training & Placement Cell; orchestrated coding bootcamps for 100+ peers.</p>
+          </div>
+        </div>
+        
+        <div class="glass-card achievement-card">
+          <i class="fas fa-chalkboard-teacher"></i>
+          <div class="achievement-details">
+            <h3>Professional Mentoring</h3>
+            <p>Elected as a mathematics class teacher at Sankalp Coaching Classes, building logical formulation capabilities in students.</p>
+          </div>
+        </div>
+        
+      </div>
+    </section>
 
-  <p>
-    I also bring two years of experience as a Mathematics faculty, which strengthened my communication, logical thinking, and teamwork skills. I am seeking internship and entry-level opportunities as a Software Development Engineer (Intern), Full Stack Developer, Backend Developer, or Data Engineer (Trainee).
-  </p>
+    <!-- VIDEOS & EVENTS SECTION -->
+    <section id="videos" class="section reveal">
+      <div class="section-header">
+        <span class="section-subtitle">Public Highlights</span>
+        <h2 class="section-title">Academic & Teaching Videos</h2>
+      </div>
+      
+      <div class="videos-grid">
+        
+        <!-- Video 1 -->
+        <div class="glass-card video-card">
+          <div class="video-thumb-wrapper">
+            <img src="assets/images/videos/teaching_thumb.jpeg" alt="Teaching Math at Sankalp Thumbnail">
+            <a href="https://drive.google.com/file/d/1Ied55M2vUw7-f9Ox-FxKO61KuV19MvR5/preview" target="_blank" class="video-play-btn"><i class="fas fa-play"></i></a>
+          </div>
+          <h3>Mathematics Teaching Session</h3>
+          <p>A look at a live math session conducted at Sankalp Classes. Demonstrates clear explanation of complex algorithms and group lecturing skills.</p>
+        </div>
+        
+        <!-- Video 2 -->
+        <div class="glass-card video-card">
+          <div class="video-thumb-wrapper">
+            <img src="assets/images/videos/event_video_thumb.jpeg" alt="Technical Workshop Thumbnail">
+            <a href="https://drive.google.com/file/d/1IVcsDsgPQUrKkGPTKrcntH2NKPHv0cKZ/preview" target="_blank" class="video-play-btn"><i class="fas fa-play"></i></a>
+          </div>
+          <h3>Student Technical Workshop</h3>
+          <p>Guiding peers on system deployments and core databases setups during a collaboration event with the RNXG team.</p>
+        </div>
+        
+        <!-- Video 3 -->
+        <div class="glass-card video-card">
+          <div class="video-thumb-wrapper">
+            <img src="assets/images/videos/mgm_meeting_thumb.jpeg" alt="Institutional Discussion Thumbnail">
+            <a href="https://drive.google.com/file/d/1PYigroxky9HXkqqeOTnJ41X7rBj-o2Yi/preview" target="_blank" class="video-play-btn"><i class="fas fa-play"></i></a>
+          </div>
+          <h3>College Interaction Panel</h3>
+          <p>Social internship interactions and panel discussions focusing on educational management workflows with deans.</p>
+        </div>
+        
+      </div>
+    </section>
 
-</section>
+    <!-- PHOTOS GRID -->
+    <section id="photos" class="section reveal">
+      <div class="section-header">
+        <span class="section-subtitle">Moments in Tech</span>
+        <h2 class="section-title">Professional Interactions</h2>
+      </div>
+      
+      <div class="photos-grid">
+        
+        <!-- Photo 1 -->
+        <div class="glass-card photo-card">
+          <img src="assets/images/events/ips_meeting.jpeg" alt="Meeting IPS Shri Krishna Kokate">
+          <p>Meeting IPS Shri Krishna Kokate Sir at Nanded SP Office to gather leadership insights.</p>
+        </div>
+        
+        <!-- Photo 2 -->
+        <div class="glass-card photo-card">
+          <img src="assets/images/events/collector_meeting.jpeg" alt="Meeting IAS Abhijit Raut">
+          <p>Dialogue on administration dynamics with IAS Abhijit Raut Sir at Nanded Collector Office.</p>
+        </div>
+        
+        <!-- Photo 3 -->
+        <div class="glass-card photo-card">
+          <img src="assets/images/events/faculty_sankalp.jpeg" alt="Sankalp Coaching Faculty Team">
+          <p>Collaborative meeting with faculty educators at Sankalp Coaching Classes.</p>
+        </div>
+        
+        <!-- Photo 4 -->
+        <div class="glass-card photo-card">
+          <img src="assets/images/events/class_students.jpeg" alt="Classroom with Students">
+          <p>Fostering discipline and quantitative reasoning during a mathematics lecture.</p>
+        </div>
+        
+      </div>
+    </section>
 
+    <!-- CERTIFICATES GRID -->
+    <section id="certificates" class="section reveal">
+      <div class="section-header">
+        <span class="section-subtitle">Credentials</span>
+        <h2 class="section-title">Certificates & Licenses</h2>
+      </div>
+      
+      <div class="cert-grid">
+        
+        <!-- Cert 1 -->
+        <div class="glass-card cert-card">
+          <div class="cert-img-wrapper">
+            <img src="assets/docs/certificates/python_iit.jpeg" alt="IIT Delhi Python Programming Certificate">
+          </div>
+          <h3>Python Certification – IIT Delhi</h3>
+          <p>Validated training covering pythonic data structures, algorithm design, and file-parsing routines from IIT Delhi.</p>
+        </div>
+        
+        <!-- Cert 2 -->
+        <div class="glass-card cert-card">
+          <div class="cert-img-wrapper">
+            <img src="assets/docs/certificates/personality_cert.jpeg" alt="Personality Development Training Certificate">
+          </div>
+          <h3>Personality Development Program</h3>
+          <p>Completed intensive training workshops focusing on communicative confidence, teamwork models, and corporate etiquettes.</p>
+        </div>
+        
+        <!-- Cert 3 -->
+        <div class="glass-card cert-card">
+          <div class="cert-img-wrapper">
+            <img src="assets/docs/certificates/teaching_cert.jpeg" alt="Teaching Experience Certificate">
+          </div>
+          <h3>Teaching Experience Certificate</h3>
+          <p>Formally recognized for serving as a math tutor, training logical reasoning and clarity in students.</p>
+        </div>
+        
+      </div>
+    </section>
 
-<!-- Why me -->
-<section id="why-me" class="section">
-  <h2>How I Think & What I Bring</h2>
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section reveal">
+      <div class="section-header">
+        <span class="section-subtitle">Get in Touch</span>
+        <h2 class="section-title">Contact</h2>
+      </div>
+      
+      <div class="contact-container glass-card">
+        
+        <div class="contact-info">
+          <h3>Let's Collaborate</h3>
+          <p style="color: var(--text-muted); font-size: 14px; line-height: 1.6;">
+            I am currently open to placements and internships in Software Engineering (SDE), Machine Learning, and Data Engineering. Feel free to contact me directly or write a message.
+          </p>
+          
+          <!-- Contact Items -->
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <div class="contact-item-details">
+              <h4>Email</h4>
+              <a href="mailto:chandupatil0711@gmail.com">chandupatil0711@gmail.com</a>
+            </div>
+          </div>
+          
+          <div class="contact-item">
+            <i class="fas fa-phone-alt"></i>
+            <div class="contact-item-details">
+              <h4>Phone</h4>
+              <p>+91 6302494449</p>
+            </div>
+          </div>
+          
+          <div class="contact-item">
+            <i class="fab fa-linkedin-in"></i>
+            <div class="contact-item-details">
+              <h4>LinkedIn</h4>
+              <a href="https://www.linkedin.com/in/chandupatil07/" target="_blank">linkedin.com/in/chandupatil07</a>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Interactive Form -->
+        <form class="contact-form">
+          <div class="form-group-row">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" required class="form-control" placeholder="e.g. John Doe">
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" required class="form-control" placeholder="e.g. johndoe@gmail.com">
+            </div>
+          </div>
+          
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" required class="form-control" placeholder="e.g. SDE Internship Opportunity">
+          </div>
+          
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required class="form-control" placeholder="Write your message here..."></textarea>
+          </div>
+          
+          <button type="submit" class="btn-primary" style="align-self: flex-start;">Send Message <i class="fas fa-paper-plane"></i></button>
+        </form>
+      </div>
+    </section>
 
-  <p>
-    My background in <b>Mathematics teaching (5th to 10th standard)</b> has strongly shaped
-    the way I approach problem-solving and data analysis.
-    Teaching helped me break complex concepts into simple, logical steps — a skill I now
-    apply while working with data, SQL queries, and analytical solutions.
-  </p>
+  </main>
 
-  <p>
-    Alongside this, I have solved <b>250+ Data Structures and Algorithms problems</b> on
-    platforms like <b>LeetCode</b> and <b>GeeksforGeeks</b>.
-    Regular problem-solving has strengthened my logical reasoning, algorithmic thinking,
-    and ability to analyze time and space complexity.
-  </p>
-
-  <p>
-    I approach data problems by first understanding the <b>business or real-world context</b>,
-    then structuring the data logically before moving to implementation.
-    I focus on clarity, correctness, and actionable insights rather than just writing queries or code.
-  </p>
-
-  <p>
-    As an intern, I bring <b>strong fundamentals, disciplined thinking, and the ability to explain ideas clearly</b>,
-    making me effective in both technical execution and collaborative team environments.
-  </p>
-</section>
-
-
-//skills
-<section id="skills" class="fade-in section">
-<h2>Skills</h2>
-
-<div class="skills-grid">
-
-<span><i class="devicon-html5-plain colored"></i> HTML</span>
-<span><i class="devicon-css3-plain colored"></i> CSS</span>
-<span><i class="devicon-javascript-plain colored"></i> JavaScript</span>
-<span><i class="devicon-react-original colored"></i> React</span>
-<span><i class="devicon-nodejs-plain colored"></i> Node.js</span>
-<span><i class="devicon-express-original"></i> Express.js</span>
-<span><i class="devicon-mongodb-plain colored"></i> MongoDB</span>
-
-<span><i class="devicon-python-plain colored"></i> Python</span>
-<span><i class="devicon-cplusplus-plain colored"></i> C++</span>
-
-<span><i class="devicon-pandas-original colored"></i> Pandas</span>
-<span><i class="devicon-numpy-original colored"></i> NumPy</span>
-<span><i class="devicon-scikitlearn-plain colored"></i> Scikit-learn</span>
-
-<span><i class="fas fa-chart-bar"></i> Power BI</span>
-<span><i class="fas fa-table"></i> Excel</span>
-
-<span><i class="fas fa-database"></i> SQL Server</span>
-<span><i class="fas fa-layer-group"></i> Data Warehousing</span>
-<span><i class="fas fa-gears"></i> ETL Pipelines</span>
-
-<span><i class="fas fa-brain"></i> Machine Learning</span>
-<span><i class="fas fa-network-wired"></i> Deep Learning</span>
-<span><i class="fas fa-language"></i> NLP</span>
-
-<span><i class="devicon-git-plain colored"></i> Git</span>
-<span><i class="devicon-github-original"></i> GitHub</span>
-
-<span><i class="fas fa-cloud"></i> REST APIs</span>
-<span><i class="fas fa-shield-alt"></i> JWT Authentication</span>
-
-<span><i class="fas fa-desktop"></i> Operating Systems</span>
-<span><i class="fas fa-code"></i> Data Structures</span>
-
-</div>
-</section>
-
-
-<!-- problem solving -->
-<section id="problem-solving" class="section">
-  <h2>Problem Solving & Competitive Coding</h2>
-
-  <p>
-    I have solved <b>217+ Data Structures and Algorithms problems</b> on
-    <b>LeetCode</b> and continue to practice <b>daily</b> to strengthen my
-    problem-solving and analytical skills.
-    My practice covers arrays, strings, recursion, linked lists,
-    stacks, queues, trees, binary search, and algorithmic optimization.
-  </p>
-
-  <p>
-    Consistent problem-solving has strengthened my
-    <b>logical thinking, algorithmic approach, and time–space complexity analysis</b>,
-    which directly helps me write optimized SQL queries,
-    design efficient data workflows, and build scalable solutions.
-  </p>
-
-  <div class="project-buttons">
-    <a href="https://leetcode.com/u/Chandrashekhar_Patil/" 
-       target="_blank" 
-       class="btn">
-      View LeetCode Profile
-    </a>
-  </div>
-</section>
-++
-
-
-
-
-<!-- PROJECTS -->
-<section id="projects" class="fade-in section">
-  <h2>Projects</h2>
-
-  <div class="projects-container">
-
-    <!-- 1 Hospital Appointment -->
-    <div class="project-card">
-      <img src="assets/images/projects/prescripto.png">
-      <h3>Prescripto – Hospital Appointment System</h3>
-      <p><b>MERN | React | Node.js | MongoDB | Express</b></p>
-      <p>
-        Full Stack MERN application for managing doctor appointments,
-        patient records, and hospital administration with secure
-        authentication and admin dashboard.
-      </p>
-
-      <div class="project-buttons">
-        <a href="https://hospitaladmin-weld.vercel.app/" target="_blank" class="btn">
-          Live
-        </a>
-
-        <a href="https://github.com/chandupatil07/Hospital_Appointements.git"
-           target="_blank"
-           class="btn">
-          GitHub
-        </a>
+  <!-- Footer -->
+  <footer>
+    <div class="footer-content">
+      <div class="footer-logo">Chandrashekhar <span>Patil</span></div>
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#coding-profiles">DSA</a>
+        <a href="assets/docs/resume/resume.pdf" target="_blank">Resume</a>
+      </div>
+      <div class="footer-text">
+        <p>&copy; 2026 Chandrashekhar Patil. All Rights Reserved. Crafted with Premium aesthetics.</p>
       </div>
     </div>
+  </footer>
 
-
-    <!-- 2 AgroVision -->
-    <div class="project-card">
-      <img src="assets/images/projects/agrovision.png">
-      <h3>AgroVision – Smart Agriculture Platform</h3>
-        <p><b>React | Node.js | CNN | Machine Learning</b></p>
-      <p>
-        Machine Learning based agriculture platform with CNN plant disease
-        detection and crop recommendation system to support smart farming.
-      </p>
-
-      <div class="project-buttons">
-        <a href="https://agrovision-self.vercel.app/" target="_blank" class="btn">
-          Live
-        </a>
-
-        <a href="https://github.com/chandupatil07/AgroVision.git"
-           target="_blank"
-           class="btn">
-          GitHub
-        </a>
-      </div>
-    </div>
-
-
-    <!-- 3 Movie Recommendation -->
-    <div class="project-card">
-      <img src="assets/images/projects/movie.png">
-      <h3>Movie Recommendation System</h3>
-      <p><b>Python | Pandas | Scikit-learn | Streamlit</b></p>
-      <p>
-        Content-based recommendation system built using Python
-        and Streamlit that suggests similar movies based on user selection.
-      </p>
-
-      <div class="project-buttons">
-        <a href="https://hostwebs.site/eyP4Pw" class="btn">
-          Live
-        </a>
-
-        <a href="https://github.com/chandupatil07/Movies_Recommandation_System"
-           class="btn">
-          GitHub
-        </a>
-      </div>
-    </div>
-
-
-    <!-- 4 SQL Data Warehouse -->
-    <div class="project-card">
-      <img src="assets/images/projects/sql_data_warehouse.png">
-      <h3>SQL Data Warehouse</h3>
-      <p><b>SQL Server | Data Warehousing | ETL | Medallion Architecture</b></p>
-      <p>
-        Implemented Bronze–Silver–Gold Medallion architecture using SQL
-        Server for structured data processing and analytics.
-      </p>
-
-      <div class="project-buttons">
-        <a href="https://github.com/chandupatil07/sql-data-warehouse-project"
-           class="btn">
-          GitHub
-        </a>
-
-        <a href="https://drive.google.com/file/d/1vLKEsZOX6DkiJgMx4Za8bW__p4cJIiR2/preview"
-           target="_blank"
-           class="btn">
-          ▶ Project Demo
-        </a>
-      </div>
-    </div>
-
-
-    <!-- 5 SQL EDA -->
-    <div class="project-card">
-      <img src="assets/images/projects/sql_analysis.png">
-      <h3>Exploratory Data Analysis (SQL)</h3>
-      <p><b>SQL | Window Functions | Data Analysis</b></p>
-      <p>
-        Advanced SQL analysis using joins, aggregations,
-        and window functions to extract insights from datasets.
-      </p>
-
-      <div class="project-buttons">
-        <a href="https://github.com/chandupatil07/sql-exploratory-data-analysis"
-           class="btn">
-          GitHub
-        </a>
-      </div>
-    </div>
-
-
-    <!-- 6 Power BI -->
-    <div class="project-card">
-      <img src="assets/images/projects/powerbi.png">
-      <h3>Power BI Sales Dashboard</h3>
-      <p><b>Power BI | Data Visualization | DAX | Dashboard Design</b></p>
-      <p>
-        Interactive sales analytics dashboard built using Power BI
-        with KPI metrics, filters, and mobile responsive reports.
-      </p>
-
-      <div class="project-buttons">
-        <a href="https://github.com/chandupatil07/powerbi-mobile-sales-dashboard"
-           class="btn">
-          GitHub
-        </a>
-
-        <a href="https://drive.google.com/file/d/1S7fSG21Qy0t-IDtTa6YlGpC45r62WlSU/preview"
-           target="_blank"
-           class="btn">
-          ▶ Project Demo
-        </a>
-      </div>
-    </div>
-
-  </div>
-</section>
-
-
-
-
-<!-- VIDEOS -->
-<section id="videos" class="fade-in section">
-  <h2>Videos</h2>
-
-  <div class="projects-container">
-
-    <div class="project-card">
-      <img src="assets/images/videos/teaching_thumb.jpeg" alt="Teaching Video">
-      <h3>Teaching Session</h3>
-    <p>
-  A glimpse of my <b>teaching experience at Sankalp Coaching Classes</b>,
-  where I taught Mathematics to students from <b>5th to 10th standard</b>.
-  This experience strengthened my concept clarity, communication skills,
-  and logical explanation abilities.
-</p>
-
-
-      <div class="project-buttons">
-        <!-- <a href="assets/videos/teaching_video.mp4" target="_blank" class="btn">
-          ▶ Watch Video
-        </a> -->
-        <a href="https://drive.google.com/file/d/1Ied55M2vUw7-f9Ox-FxKO61KuV19MvR5/preview"
-   target="_blank"
-   class="btn">
-  ▶ Watch Video
-</a>
-
-      </div>
-    </div>
-
-    <div class="project-card">
-      <img src="assets/images/videos/event_video_thumb.jpeg" alt="Event Video">
-      <h3>Academic Event</h3>
-     <p>
-  A glimpse of a <b>student-led technical workshop</b> conducted at my college in collaboration
-  with RNXG team, where I actively guided participants, explained concepts,
-  and shared practical insights related to data and technology.
-</p>
-
-      <div class="project-buttons">
-        <!-- <a href="assets/videos/event_video.mp4" target="_blank" class="btn">
-          ▶ Watch Video
-        </a> -->
-        <a href="https://drive.google.com/file/d/1IVcsDsgPQUrKkGPTKrcntH2NKPHv0cKZ/preview"
-   target="_blank"
-   class="btn">
-  ▶ Watch Video
-</a>
-
-      </div>
-    </div>
-
-    <div class="project-card">
-      <img src="assets/images/videos/mgm_meeting_thumb.jpeg" alt="College Meeting">
-      <h3>College Interaction</h3>
-         <p>
-  A short glimpse of professional interaction during my social internship at
-  <b>MGM’s Mahatma Gandhi Mission’s College of Engineering, Nanded</b>,
-  where I participated in discussions with Director and Dean faculty members,
-  gaining exposure to professional communication and institutional workflows.
-</p>
-
-      <div class="project-buttons">
-        <!-- <a href="assets/videos/mgm_meeting.mp4" target="_blank" class="btn">
-          ▶ Watch Video
-        </a> -->
-        <a href="https://drive.google.com/file/d/1PYigroxky9HXkqqeOTnJ41X7rBj-o2Yi/preview"
-   target="_blank"
-   class="btn">
-  ▶ Watch Video
-</a>
-
-      </div>
-    </div>
-
-  </div>
-</section>
-
-
-
-
-
-
-<!-- PHOTOS -->
-<section id="photos" class="fade-in section">
-  <h2>Professional Photos & Events</h2>
-
-  <div class="projects-container">
-
-    <div class="project-card">
-      <img src="assets/images/events/ips_meeting.jpeg" alt="Event Photo">
-      <p>A glimpse of a memorable interaction with IPS Shri Krishna Kokate Sir at the SP Office, Nanded, reflecting inspiration, discipline, and administrative insight.
-</p>
-    </div>
-
-    <div class="project-card">
-      <img src="assets/images/events/collector_meeting.jpeg" alt="Workshop Photo">
-      <p>A photo captured during my visit to the Collector Office, Nanded, with IAS Abhijit Raut Sir, gaining motivation and insight into district administration and governance.
-</p>
-    </div>
-
-    <div class="project-card">
-      <img src="assets/images/events/faculty_sankalp.jpeg" alt="Seminar Photo">
-      <p>A photo captured with the faculty members of Sankalp Coaching Classes, Nanded, where I contribute as a Mathematics faculty, highlighting a collaborative teaching environment.
-</p>
-    </div>
-
-      <div class="project-card">
-      <img src="assets/images/events/class_students.jpeg" alt="Seminar Photo">
-      <p>A glimpse of a classroom moment with my students at Sankalp Coaching Classes, Nanded, where I serve as their class teacher, fostering learning, discipline, and student growth.
-</p>
-    </div>
-
-  </div>
-</section>
-
-
-
-<!-- CERTIFICATES -->
-<section id="certificates" class="fade-in section">
-  <h2>Certificates</h2>
-
-  <div class="projects-container">
-
-    <div class="project-card">
-      <img src="assets/docs/certificates/python_iit.jpeg" alt="Python IIT Delhi Certificate">
-      <h3>Python Certification – IIT Delhi</h3>
-      <p>
-        Successfully completed Python programming certification
-        from IIT Delhi covering fundamentals, problem solving,
-        and data handling.
-      </p>
-    </div>
-
-    <div class="project-card">
-      <img src="assets/docs/certificates/personality_cert.jpeg" alt="Personality Development Certificate">
-      <h3>Personality Development Program</h3>
-      <p>
-        Training focused on communication skills, confidence building,
-        teamwork, and professional behavior.
-      </p>
-    </div>
-
-    <div class="project-card">
-      <img src="assets/docs/certificates/teaching_cert.jpeg" alt="Teaching Experience Certificate">
-      <h3>Teaching Experience</h3>
-      <p>
-        Gained teaching and mentoring experience by guiding Class 5–10 students in Mathematics, strengthening their problem-solving and logical thinking skills.
-      </p>
-    </div>
-
-  </div>
-</section>
-
-
-
-<!-- CONTACT -->
-<section id="contact" class="fade-in section contact">
-  <h2>Contact</h2>
-  <div class="contact-grid">
-    <p>📧 chandupatil0711@gmail.com</p>
-    <p>📞 6302494449</p>
-    <p>
-      🔗 <a href="https://www.linkedin.com/in/chandupatil07/" target="_blank">
-        LinkedIn Profile
-      </a>
-    </p>
-    <p>
-      💻 <a href="https://github.com/chandupatil07" target="_blank">
-        GitHub
-      </a>
-    </p>
-  </div>
-</section>
-
-<footer>
-  <p>© 2026 Chandrashekhar Patil | Portfolio</p>
-</footer>
-
-<script src="assets/js/typing.js"></script>
+  <!-- Scripts -->
+  <script src="assets/js/typing.js"></script>
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
